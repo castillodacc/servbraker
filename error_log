@@ -1,0 +1,2 @@
+[07-May-2017 14:48:39 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/servbro/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 480
+[07-May-2017 14:50:04 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/servbro/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 480
