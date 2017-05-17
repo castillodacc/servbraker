@@ -48,7 +48,7 @@ figure		{position:relative;overflow:hidden;}
 figure img 	{display:block;}
 
 iframe,
-.fb_iframe_widget 	{border:0;max-width:100%;width:100%;overflow:hidden;}
+.fb_iframe_widget 	{border:0;max-width:100%;width:100%;overflow:hidden; height:  100% !important;}
 
 input,button,select,textarea {font-family: inherit;font-size: inherit;line-height: inherit;}
 
@@ -71,7 +71,7 @@ a {text-decoration:none;-webkit-transition:all 0.2s ease-in;-moz-transition:all 
 .right-pic 	{float:right;margin:0 0 0 30px;}
 
 /* 03 TYPOGRAPHY */
-h1 {font-weight:normal;font-size:31px;padding:0 0 25px;}
+h1 {font-weight:normal;font-size:50px;padding:0 0 25px;}
 h2 {font-weight:normal;font-size:26px;padding:0 0 37px;color:#2B3941;}
 h3 {font-weight:normal;font-size:21px;padding:0 0 15px;}
 h4 {font-weight:normal;font-size:18px;padding:0 0 15px;color:#2B3941;}
@@ -332,7 +332,7 @@ section.icons		{padding-bottom:10px;}
 .lightSlider li 			{padding:0;}
 .lightSlider li:before 	{display:none;}
 .lSAction				{position:absolute;right:5%;bottom:50px;font-size:14px;}
-.lSAction > a			{background-image:none !important;width:auto !important;height:auto !important;top:93% !important;position:static !important;float:left;padding:0 0 0 15px;color:#515E64;font-weight:400;}
+.lSAction > a			{background-image:none !important;width:auto !important;height:auto !important;top:93% !important;position:static !important;float:left;padding:0 0 0 15px;color:#FF830F !important;font-weight:bolder; font-size: 150%;}
 .lSNext					{border-left:1px solid #ddd;margin:0 0 0 15px;}
 
 /* 14 CONTENT */
@@ -542,7 +542,7 @@ div.border img 	{margin:0 auto;}
 
 .boxed header 				{width:100%;background:#F4F4F4;padding:15px 7%;color:#787878;font-size:19px;font-weight:300;}
 .details 					{display:inline-block;width:100%;border:1px solid #ddd;border-bottom:none;margin:30px 0;}
-.details div 					{float:left;width:50%;height:63px;border-bottom:1px solid #ddd;line-height:61px;}
+.details div 					{float:left;width:100%;/*width:50%;jccm*/height:63px;border-bottom:1px solid #ddd;line-height:61px;}
 .details div:nth-child(2n) 	{border-left:1px solid #ddd;}
 .details span 				{color:#FF9D48;border-right:1px solid #ddd;height:100%;line-height:61px;padding:0 14px;float:left;font-size:34px;}
 .details p 					{line-height:61px;padding:0 15px;float:left;}
@@ -557,6 +557,7 @@ div.border img 	{margin:0 auto;}
 .text h4			{font-family:'Raleway',Arial,Helvetica,sans-serif;font-weight:500;padding-bottom:6%;}
 
 .text fieldset > div {padding-bottom:30px;}
+.text p {font-family:'Raleway',Arial,Helvetica,sans-serif;font-weight:bold; font-size: 25px;}
 
 .grid2 .text 	{padding:6% 7% 0 !important;}
 .grid2 .text h3 	{padding-bottom:6%;}

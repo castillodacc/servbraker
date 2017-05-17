@@ -38,6 +38,7 @@
 			<!-- Primary menu -->
 			<nav class="main-nav" role="navigation">
 				<ul class="jetmenu" id="jetmenu">
+					<li><a href="/" title="Inicio">Inicio</a></li>
 					<li><a href="/nosotros" title="Nosotros">Sobre Nosotros</a></li>
 					<li><a href="" title="Services">Servicios</a></li></li>
 					<!--<li><a href="" title="Galería de Imágenes">Galería</a></li>
@@ -48,7 +49,7 @@
 							<li><a href="" title="Registrarse">Registrarse</a></li>
 							<li><a href="" title="Ingresar al Sistema">Ingresar</a></li> 
 						</ul>
-					</li>
+					</li> 
 				</ul>
 				
 				<!-- Search -->
@@ -186,21 +187,21 @@
 	<script>
 		 $(document).ready(function() {
 			$("#lightSliderPosts").lightSlider({
-				item:1,
+				item:4,
 				keyPress:true,
 				gallery:false,
 				pager:false,
-				prevHtml: 'PREVIOUS',
-				nextHtml: 'NEXT'
+				prevHtml: 'Anterior',
+				nextHtml: 'Siguiente'
 			});
 			
 			$("#lightSliderDeals").lightSlider({
-				item:1,
+				item:4,
 				keyPress:true,
 				gallery:false,
 				pager:false,
-				prevHtml: 'PREVIOUS',
-				nextHtml: 'NEXT'
+				prevHtml: 'Anterior',
+				nextHtml: 'Siguiente'
 			});
 			
 			new WOW().init();
